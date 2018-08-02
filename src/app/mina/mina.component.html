@@ -1,0 +1,10 @@
+<img src="../../assets/mina.jpg">
+<div class="pontuacao">
+  <p>Pontuação: <br> {{pontuacao}} </p>
+  <button (click)="zerarPontuacao()">Zerar</button>
+  <p *ngIf="ruim"> RUIM </p> <!--; else bom -->
+  <p *ngIf="!ruim"> BOM </p>
+  <!-- <ng-template #bom> BOM </ng-template> -->
+  <!-- <p *ngFor="let x of ruim"> {{x}} </p> -->
+</div>
+<app-bitcoin></app-bitcoin>

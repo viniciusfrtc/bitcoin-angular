@@ -1,0 +1,19 @@
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.pontuacao {
+    position: absolute;
+    right: 5%; 
+    top: 5%;
+    color: white;
+}
+
+.pontuacao p {
+    font-size: 20px;
+}
+
+.pontuacao button {
+    font-size: 15px;
+}

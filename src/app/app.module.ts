@@ -3,16 +3,21 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MinaComponent } from './mina/mina.component';
+import { BitcoinComponent } from './bitcoin/bitcoin.component';
 
+import { PontuacaoService } from './pontuacao.service'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MinaComponent,
+    BitcoinComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [PontuacaoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
